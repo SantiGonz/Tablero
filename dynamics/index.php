@@ -21,7 +21,7 @@ for ($i = 0; $i < $size; $i++) {
 <<<<<<< HEAD
              echo "<td>++</td>";
 =======
-            echo "<td><img src='../assets/blanco.png'></td>";
+            echo "<td><img src='../assets/negro.png'></td>";
 >>>>>>> tablero
         } else {
             echo "<td><img src='../assets/negro.png'></td>";
