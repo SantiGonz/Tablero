@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título bonito</title>
+</head>
+<body>
 <?php
 
 $size = $_POST["size"];
@@ -9,7 +18,7 @@ for ($i = 0; $i < $size; $i++) {
 
     for ($j = 0; $j < $size; $j++) {
         if ($i % 2 === $j % 2) {
-            echo "<td>+</td>";
+             echo "<td>+</td>";
         } else {
             echo "<td>-</td>";
         }
@@ -21,3 +30,6 @@ for ($i = 0; $i < $size; $i++) {
 echo "</table>";
 
 ?>
+</body>
+</html>
+
